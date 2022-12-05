@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/food-delivery-ecommerce/static/css/main.073c9b0a.css",
+    "main.js": "/food-delivery-ecommerce/static/js/main.16c24f77.js",
+    "static/js/787.5fbfbc9c.chunk.js": "/food-delivery-ecommerce/static/js/787.5fbfbc9c.chunk.js",
+    "static/media/logo.svg": "/food-delivery-ecommerce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/food-delivery-ecommerce/index.html",
+    "main.073c9b0a.css.map": "/food-delivery-ecommerce/static/css/main.073c9b0a.css.map",
+    "main.16c24f77.js.map": "/food-delivery-ecommerce/static/js/main.16c24f77.js.map",
+    "787.5fbfbc9c.chunk.js.map": "/food-delivery-ecommerce/static/js/787.5fbfbc9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.16c24f77.js"
+  ]
+}
