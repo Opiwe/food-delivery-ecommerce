@@ -1,0 +1,243 @@
+.contact-page {
+    padding-top: 80px;
+    min-height: 100vh;
+    background: #fffaf5;
+}
+
+.contact-hero {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-hero::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    top: -100px;
+    right: -100px;
+}
+
+.contact-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2rem;
+}
+
+.contact-content {
+    padding: 50px 0;
+}
+
+.contact-info-card {
+    border: none;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+    height: 100%;
+}
+
+.info-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-desc {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-item {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-icon {
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.contact-details h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-details p {
+    color: #666;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.social-section {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.social-section h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-link {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
+}
+
+.contact-form-card {
+    border: none;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.contact-form-card label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.contact-form-card .form-control {
+    border: 2px solid #eee;
+    border-radius: 12px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.contact-form-card .form-control:focus {
+    border-color: #ff6b35;
+    box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.1);
+}
+
+.contact-form-card textarea.form-control {
+    resize: none;
+}
+
+.btn-submit {
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(255, 107, 53, 0.3);
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+}
+
+.map-card {
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+}
+
+.map-placeholder {
+    background: linear-gradient(135deg, #fff5f0, #ffe8d6);
+    padding: 60px;
+    text-align: center;
+}
+
+.map-emoji {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.map-placeholder p {
+    color: #666;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    
+    .contact-info-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .contact-title {
+        font-size: 2rem;
+    }
+    
+    .contact-hero {
+        padding: 40px 0;
+    }
+}
