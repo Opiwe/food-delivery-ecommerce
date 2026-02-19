@@ -1,0 +1,127 @@
+.header {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    padding: 15px 0;
+    box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3);
+    transition: all 0.3s ease;
+}
+
+.header .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.brand-icon {
+    font-size: 2rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.brand-text {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-item-custom {
+    color: #fff !important;
+    font-weight: 600;
+    padding: 10px 20px !important;
+    margin: 0 5px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item-custom::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.nav-item-custom:hover::before {
+    left: 0;
+}
+
+.nav-item-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-badge {
+    font-size: 0.7rem;
+    padding: 3px 7px;
+    border-radius: 50%;
+}
+
+.btn-login {
+    background: #fff;
+    color: #ff6b35 !important;
+    margin-left: 10px;
+}
+
+.btn-login:hover {
+    background: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.toggler-btn {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+.toggler-icon {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    position: relative;
+}
+
+.toggler-icon::before,
+.toggler-icon::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    left: 0;
+}
+
+.toggler-icon::before { top: -8px; }
+.toggler-icon::after { top: 8px; }
+
+@media (max-width: 991px) {
+    .header .collapse {
+        background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 15px;
+    }
+    
+    .nav-item-custom {
+        text-align: center;
+        margin: 5px 0;
+    }
+}
