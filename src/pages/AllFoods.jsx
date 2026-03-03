@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Input, InputGroup, InputGroupText, Button, Card, CardBody } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import { FaSearch, FaFilter, FaStar, FaShoppingCart, FaHeart, FaFire, FaLeaf } from 'react-icons/fa';
+import { FaSearch, FaStar, FaShoppingCart, FaHeart, FaFire, FaLeaf } from 'react-icons/fa';
 import './AllFoods.css';
 
 const AllFoods = () => {

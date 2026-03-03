@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Button, Card, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { FaMinus, FaPlus, FaTrash, FaShoppingBasket, FaArrowRight, FaArrowLeft } from 'react-icons/fa';
+import { FaMinus, FaPlus, FaTrash, FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import './Cart.css';
 
 const Cart = () => {

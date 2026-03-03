@@ -25,10 +25,10 @@ const Footer = () => {
                                 just a click away!
                             </p>
                             <div className="social-links">
-                                <a href="#" className="social-link"><FaFacebook /></a>
-                                <a href="#" className="social-link"><FaInstagram /></a>
-                                <a href="#" className="social-link"><FaTwitter /></a>
-                                <a href="#" className="social-link"><FaYoutube /></a>
+                                <a href="https://facebook.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+                                <a href="https://instagram.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                                <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+                                <a href="https://youtube.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
                             </div>
                         </div>
                     </Col>
@@ -47,10 +47,10 @@ const Footer = () => {
                         <div className="footer-links">
                             <h4 className="footer-title">Company</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Privacy</a></li>
+                                <li><Link to="/about">About Us</Link></li>
+                                <li><Link to="/careers">Careers</Link></li>
+                                <li><Link to="/terms">Terms</Link></li>
+                                <li><Link to="/privacy">Privacy</Link></li>
                             </ul>
                         </div>
                     </Col>

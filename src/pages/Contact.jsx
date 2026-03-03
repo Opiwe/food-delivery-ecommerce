@@ -60,10 +60,10 @@ const Contact = () => {
                                 <div className="social-section">
                                     <h4>Follow Us</h4>
                                     <div className="social-links">
-                                        <a href="#" className="social-link"><FaFacebook /></a>
-                                        <a href="#" className="social-link"><FaInstagram /></a>
-                                        <a href="#" className="social-link"><FaTwitter /></a>
-                                        <a href="#" className="social-link"><FaYoutube /></a>
+                                        <a href="https://facebook.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+                                        <a href="https://instagram.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                                        <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+                                        <a href="https://youtube.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
                                     </div>
                                 </div>
                             </CardBody>

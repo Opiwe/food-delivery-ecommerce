@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { FaPizzaSlice, FaHamburger, FaIceCream, FaLeaf, FaMotorcycle, FaStar, FaArrowRight } from 'react-icons/fa';
+import { FaLeaf, FaMotorcycle, FaStar, FaArrowRight } from 'react-icons/fa';
 import './Home.css';
 
 const Home = () => {
